@@ -1,0 +1,46 @@
+.footer-box{
+    width: 100%;
+    height: 440px;
+    background-color: #181818;
+    @include center;
+    &-links{
+        margin-right: 10%;
+        p{
+            color: $textcolor;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            letter-spacing: 0.1px;
+            margin-bottom: 40px;
+        }
+        li{
+            margin-top: 20px;
+            a{
+                color: $textcolor;
+            }
+        }
+    }
+    &-address{
+        
+        li{
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            a{
+                color: $textcolor;
+                margin-left: 20px;
+            
+            img{
+                width: 30px;
+                height: 30px;
+                margin-right: 20px;
+            }
+          }
+          span{
+              color: $textcolor;
+          }
+        }
+    }
+
+}

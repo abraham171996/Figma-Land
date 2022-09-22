@@ -1,0 +1,33 @@
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 0 15%;
+    font-weight: 500;
+    font-size: 16px;
+    &-pages ul {
+        @include center;
+        li{
+            margin-left: 30px;
+            
+        }
+        a{
+            color: $textcolor;
+        }
+    }
+    &-button {
+        @include center;
+    }
+    
+    button{
+        color: white;
+        padding: 15px 30px;
+        background-color: transparent;
+        border: 1px solid $textcolor;
+    }
+    &-menu-gamburger{
+        display: none;
+    }
+}
+

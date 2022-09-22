@@ -1,0 +1,342 @@
+@media(max-width : 1024px){
+    #features{
+        .features-boxes{
+            margin-top: 40px;
+        }
+        .features-boxes-image-icon {
+            width: 80% !important;
+            font-size: 12px;
+        }
+        .features-boxes-image-photo{
+            width: 70% !important;
+        }
+    }
+    #testimonials{
+
+        .testimonials-box-contents-firstbox {
+            height: 440px!important;
+            font-size: 13px;
+        }
+        .testimonials-box-contents-boxes{
+            height: 380px!important;
+            font-size: 13px;
+            
+        }
+
+        
+    
+}
+    #opentype{
+    .opentype-box{
+        margin-top: 40px;
+        p{
+            font-size: 40px !important;
+        }
+    }
+    }
+
+}
+
+@media( max-width : 768px){
+    header{
+        .header-container{
+            &-pages{
+                display: none;
+            }
+            &-menu-gamburger{
+                display: block;
+            }
+        }
+    }
+    #work{
+        height: 1500px !important;
+        .wrapper-work-title {
+            h3{
+                font-size: 70px !important;
+            }
+            p{
+                margin: 20px 0 !important;
+            }
+            &-button{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                gap: 10px;
+                &-first{
+                    margin-right: 0 !important;
+                }
+            }
+        }
+
+               
+    }
+    #features{
+        height: 1500px !important;
+        .features-boxes-image{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           flex-direction: column;
+           &-icon {
+            width: 65% !important;
+         
+          }
+        }
+    }
+    #content{
+        height: 1500px !important;
+        .content-title--bottom{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            
+            &--left{
+                margin-right: 0!important;
+                margin-bottom: 10px;
+                button{
+                    width: 50% !important;
+                }
+            }
+            &--right{
+                button{
+                    width: 70% !important;
+                }
+            }
+        }
+    }
+    #gallery{
+        height: 1500px !important;
+        .gallery-box{
+            &--title{
+                p{
+                    width: 70%!important;
+                    margin-left: 80px!important;
+                }
+            }
+            &--photos{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                &--first{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    img{
+                        width: 30%!important;
+                        margin-top: 10px;
+                    }
+                }
+                &--second{
+                    display: none !important;
+                }
+            }
+
+        }
+    }
+    #partners{
+        height: 1000px !important;
+        .partners-box{
+            &-image{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                img{
+                    width: 30%!important;
+                    margin-left: 0!important;
+                    margin-right: 10px;
+                }
+            }
+            &-button{
+                button{
+                    width: 50% !important;
+                }
+            }
+        }
+      
+
+    }
+    #testimonials{
+        height: 1500px !important;
+        .testimonials-box{
+            &-contents{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                &-firstbox{
+                    width: 80%!important;
+                    height: 330px !important;
+                }
+                &-boxes{
+                    width: 80%!important;
+                    height: 330px !important;
+                    margin-bottom: 10px !important;
+                }
+            }
+        }
+    }
+    #opentype{
+        height: 800px !important;
+        padding: 0 !important;
+        .opentype-box{
+            width: 100% !important;
+            height: 800px !important;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            &-text{
+                p{
+                  text-align: center;
+                  width: 70% !important;
+                  margin-left: 25px !important;
+
+                }
+                button{
+                    margin-left: 55px !important;
+                }
+
+            }
+            &-img{
+                img{
+                    border-radius: 0 !important;
+                }
+            }
+        }
+    }
+    footer{
+        .footer-box{
+            height: 1000px!important ;
+            display: flex;
+            justify-content: center !important ;
+            align-items: flex-start !important;
+            flex-direction: column;
+            padding-left: 20px;
+            &-links{
+                margin-bottom: 20px !important;
+                p{
+                    margin-bottom: 20px !important;
+                }
+            }
+        }
+      
+    }
+}
+@media( max-width : 480px){
+    header{
+        .header-container-menu-gamburger{
+            margin-left: 10px;
+        }
+    }
+    #work{
+        .wrapper-work-title{
+            h3{
+                font-size: 50px !important;
+                line-height: 70px !important;
+            }
+            p{
+                margin: 10px 0 !important;
+                font-size: 17px !important;
+
+            }
+            &-button{
+                margin-bottom: 20px;
+            }
+        }
+        .wrapper-work-gradient{
+            height: 800px!important;
+        }
+    }
+    #features{
+        height: 1700px!important;
+        .features-boxes-title{
+            p{
+                font-size: 17px !important;
+            }
+        }
+        .features-boxes-image-icon{
+            width: 75% !important;
+        }
+        .features-boxes{
+            margin-top: 300px!important;
+        }
+    }
+    #content{
+        height: 1800px !important;
+        .content-title--top{
+            h3{
+                margin-top: 150px !important;
+            }
+            p{
+                font-size: 17px !important;
+            }
+
+        }
+        
+        .content-title--bottom{
+            &--left{
+                width: 100% !important;
+            }
+            &--right{
+                width: 100% !important;
+            }
+        }
+    }
+    #gallery{
+        .gallery-box--title{
+            p{
+                margin-left: 50px !important;
+            }
+        }
+        .gallery-box--photos--first{
+            img{
+                width: 60% !important;
+            }
+        }
+        
+    }
+    #partners{
+        .partners-box{
+            &-title{
+                p{
+                    font-size: 17px !important;
+                }
+            }
+            &-image{
+                img{
+                    margin-right: 0 !important;
+                }
+            }
+        }
+    }
+    #testimonials{
+        .testimonials-box-contents{
+            p{
+                font-size: 13px !important;
+            }
+            &-firstbox{
+                width: 100% !important;
+            }
+            &-boxes{
+                width: 100% !important;
+            }
+        }
+    }
+    #opentype{
+        .opentype-box-text{
+            p{
+                font-size: 33px !important;
+            }
+        }
+    }
+    footer{
+        .footer-box{
+            padding-left: 40px !important;
+        }
+    }
+}
